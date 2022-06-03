@@ -113,6 +113,8 @@ a{
     letter-spacing: 0.02em;
 }
 
+
+/* contents Floating */
 .containerFloating{
     display: flex;
     justify-content: center;
@@ -133,6 +135,7 @@ a{
     right: 5.5rem;
     border-radius: 0.625rem;
     padding: 2rem;
+    gap: 1rem;
 }
 
 .textsFloating{
@@ -140,7 +143,6 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 1rem;
 }
 
 .titleFloating{
@@ -512,5 +514,209 @@ aside{
     body{
         width: 23.438rem;
         height: 434rem;
+    }
+
+    main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 23.438rem;
+        height: 31.688rem;
+        padding: 3.625rem 1.5rem 0;
+    }
+
+    /* padding: 0 1.5rem    em todas as section*/
+
+    header{
+        width: 20.438rem;
+        height: 2.5rem;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .buttons button{
+        display: none;
+    }
+
+    .containerTitle{
+        width: 19.438rem;
+        height: 20.875rem;
+    }
+
+    .title{
+        width: 100%;
+        height: 7.125rem;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.375rem;
+        text-align: center;
+    }
+
+    /* container Floating */
+    .containerFloating{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 20.5rem;
+        height: 10.5rem;
+        top: 31.688rem;
+        left: 1.5rem;
+        right: 1.438rem;
+        gap: 1rem;
+    }
+
+    .textsFloating{
+        width: auto;
+        height: auto;
+    }
+
+    .titleFloating{
+        font-size: 1.313rem;
+        font-weight: 700;
+        line-height: 1.563rem;
+        text-align: center;
+    }
+
+    .paragraphFloating{
+        width: 14.125rem;
+        height: 1.875rem;
+        font-size: 0.625rem;
+        font-weight: 600;
+        line-height: 0.938rem;
+    }
+
+    .buttonFloating{
+        width: 6.548rem;
+        height: 2rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        line-height: 1rem;
+        text-align: center;
+        padding: 0.5rem 0.75rem;
+    }
+    
+    /* New Products */
+    .newProducts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 20.5rem;
+        height: 108.438rem;
+        padding: 0 1.5rem;
+    }
+
+    .containerCards{
+        width: 100%;
+        height: auto;
+        margin-top: 0.5rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .cardArticle{
+        width: 100%;
+        height: 24.813rem;
+    }
+
+    .textsFind{
+        width: 100%;
+    }
+
+    /* Gear Heads */
+    .gearHeads{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 20.438rem;
+        height: 120.438rem;
+    }
+
+    .titleSection{
+        width: auto;
+        height: 2.188rem;
+    }
+
+    .titleSection h1{
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 1.938rem;
+    }
+
+    .cardsHeads{
+
+    }
+
+    .cardsHeads article{
+        width: 100%;
+        height: 27.063rem;
+    }
+
+    .gearFirst img{
+        width: 100%;
+        height: 19.438rem;
+    }
+
+    .gearLast img{
+        width: 100%;
+        height: 19.438rem;
+    }
+
+    /* footer */
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 23.438rem;
+        height: 18.125rem;
+    }
+
+    .contentsFooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .containerContents{
+        flex-direction: column;
+        margin: 0;
+        gap: 0;
+    }
+
+    .myAccount{
+        gap: 0.563rem;
+        margin-bottom: 2rem;
+    }
+
+    .store{
+        display: none;
+    }
+
+    .logomarcaFooter{
+        display: none;
+    }
+
+    .containerLast{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 23.438rem;
+        height: 2.125rem;
+        padding: 0;
+    }
+
+    .lastParagraph{
+        margin: 0;
+    }
+
+    .spanFooter{
+        margin-bottom: 0.563rem;
+        width: 5rem;
+        border-top: 3px #ffffff solid;
     }
 }
