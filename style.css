@@ -562,7 +562,7 @@ aside{
         flex-direction: column;
         width: 20.5rem;
         height: 10.5rem;
-        top: 31.688rem;
+        top: 26.375rem;
         left: 1.5rem;
         right: 1.438rem;
         gap: 1rem;
@@ -601,12 +601,16 @@ aside{
     /* New Products */
     .newProducts{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
-        width: 20.5rem;
+        width: 23.438rem;
         height: 108.438rem;
         padding: 0 1.5rem;
+    }
+
+    .newProducts > .titleSection {
+        margin-top: 8.688rem;
     }
 
     .containerCards{
@@ -622,8 +626,43 @@ aside{
         height: 24.813rem;
     }
 
+    .product{
+        width: 100%;
+    }
+
+    .product img{
+        width: 100%;
+    }
+
     .textsFind{
         width: 100%;
+    }
+
+    .titleFind{
+        width: 100%;
+    }
+
+    /* Popular Find */
+
+    .popularFinds{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 23.438rem;
+        height: 113.5rem;
+        padding: 0 1.5rem;
+    }
+
+    .popularFinds > .titleSection {
+        margin-top: 3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .containerCardsFinds{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
     }
 
     /* Gear Heads */
@@ -632,13 +671,15 @@ aside{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 20.438rem;
+        width: 23.438rem;
         height: 120.438rem;
+        padding: 0 1.5rem;
     }
 
-    .titleSection{
+    .gearHeads > .titleSection{
         width: auto;
         height: 2.188rem;
+        margin-top: 2.5rem;
     }
 
     .titleSection h1{
@@ -648,7 +689,7 @@ aside{
     }
 
     .cardsHeads{
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
@@ -665,6 +706,14 @@ aside{
     .gearLast img{
         width: 100%;
         height: 19.438rem;
+    }
+
+    .textsHeadFirst{
+        width: 100%;
+    }
+
+    .textsHeadLast{
+        width: 100%;
     }
 
     /* footer */
