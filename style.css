@@ -512,8 +512,13 @@ aside{
 /* Mobile Resposive */
 @media (min-width: 375px) and (max-width: 759px){
     body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 23.438rem;
-        height: 434rem;
+        height: auto;
+        margin: 0;
     }
 
     main{
@@ -605,7 +610,7 @@ aside{
         align-items: center;
         flex-direction: column;
         width: 23.438rem;
-        height: 108.438rem;
+        height: 92.938rem;
         padding: 0 1.5rem;
     }
 
@@ -649,7 +654,7 @@ aside{
         justify-content: flex-start;
         align-items: center;
         width: 23.438rem;
-        height: 113.5rem;
+        height: 92.5rem;
         padding: 0 1.5rem;
     }
 
@@ -672,7 +677,7 @@ aside{
         align-items: center;
         flex-direction: column;
         width: 23.438rem;
-        height: 120.438rem;
+        height: 160.438rem;
         padding: 0 1.5rem;
     }
 
