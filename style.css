@@ -504,6 +504,10 @@ aside{
 /* Tablet Resposive */
 @media(min-width: 1025px) and (max-width: 1224px){
     body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 64rem;
         height: 307.938rem;
     }
